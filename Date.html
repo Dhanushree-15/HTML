@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Date</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+</head>
+<body>
+    <h1>Javascript Dates</h1>
+    <h2>Using new Date()</h2>
+    <p>Create a new date object with the current date and time:</p>
+    <p id="demo"></p>
+    <script>
+        const d=new Date();
+        console.log(d.getDate);
+        console.log(d.getDay);
+        console.log(d.getFullYear);
+        console.log(d.getHours);
+        console.log(d.getMilliseconds);
+        console.log(d.getMinutes);
+        console.log(d.getMonth);
+        console.log(d.getSeconds);
+        console.log(d.getTime);
+        console.log(d.getTimezoneOffset);
+        console.log(d.getUTCDate);
+        console.log(d.getUTCDay);
+        console.log(d.getUTCFullYear);
+        console.log(d.getUTCHours);
+        console.log(d.getUTCMilliseconds);
+        console.log(d.getUTCMinutes);
+        console.log(d.getUTCMonth);
+        console.log(d.getUTCSeconds);
+        console.log(d.getVarDate);
+        document.getElementById("demo").innerHTML=d;
+    </script>
+</body>
+</html>
