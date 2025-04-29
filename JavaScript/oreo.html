@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <script src='oreo.js'></script>
+</head>
+
+<body>
+    <h1>login page</h1>
+    <span class="nameErrorClass">hi</span>
+    <span>hellooo</span>
+    <button onclick="onClick()">button</button>
+    <span id="errorID"></span>
+
+    <span class="nameError">dog</span>
+    <span>love</span>
+    <button onclick="click()">button</button>
+    <span id="bottID"></span>
+
+    <form name="formName" onsubmit="return Submitform()">
+        <div>
+            <label for="nameId">name</label>
+            <span style="color: red;">*</span>
+            <span>:</span>
+            <input type="text" id="nameId" name="nameName" required>
+        </div>
+        <div>
+            <label for="numberId">Phone</label>
+            <span style="color: red;">*</span>
+            <input type="number" id="numberId" name="numb" required>
+        </div>
+        <div>
+            <label for="ageId">Age</label>
+            <span style="color: red;">*</span>
+            <input type="number" id="ageId" name="ageAge" required>
+        </div>
+        <!-- <div>
+            <label for="Password">password</label>
+            <span style="color: red;">*</span>
+            <input type="password" id="password" name="passwordPassword" required>
+        </div>
+        <div>
+            <label for="confirmpasswordId">confirmpassword</label>
+            <span style="color: red;">*</span>
+            <input type="password" id="confirmpasswordId" name="confirmpass" required>
+        </div> -->
+        <div>
+            <button type="submit" value="submit">submit</button>
+            <button type="reset" value="clear">Clear</button>
+        </div>
+    </form>
+</body>
+
+</html>
